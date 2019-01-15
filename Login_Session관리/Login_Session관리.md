@@ -20,7 +20,7 @@ Cookie는 서버가 사용자의 웹 브라우저에 전송하는 **작은 데�
 
 이러한 Cookie의 특성을 이용해서 사용자의 로그인 세션정보를 Set-Cookie로 사용자의 Cookie에 저장한 후 매 요청마다 로그인 세션 정보를 넘겨서 유지할 수 있게 합니다.  
 
-![http cookie 통신](/cookie_header.png)  
+![http cookie 통신](./cookie_header.png)  
 출처: http://shiflett.org/articles/the-truth-about-sessions
 
 하지만 로그인 관리를 위해 간단하게 Cookie를 사용하기에는 몇가지 단점이 있습니다.  
@@ -82,7 +82,7 @@ Cookie와 Storage를 사용할 때 나오는 대표적인 보안 이슈로는 **
 ### i) XSS(사이트 간 스크립팅)
 
 XSS는 웹 페이지에 악성 스크립트를 삽입할 수 있는 취약점입니다. 
-![xss](/xss.png)  
+![xss](./xss.png)  
 출처: https://www.incapsula.com/web-application-security/reflected-xss-attacks.html  
 
 대표적인 예시로 [XSS 예문](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85)을 참조하면 이해가 빠를 것입니다.
@@ -94,7 +94,7 @@ LocalStorage, SessionStorage의 경우 XSS를 방지하는 방법은 html filter
 
 CSRF는 특정 웹사이트의 브라우저를 신뢰하는 점을 이용한 공격 방법 입니다.  
 
-![csrf](/csrf.png)
+![csrf](./csrf.png)
 
 출처: https://medium.com/@charithra/introduction-to-csrf-a329badfca49  
 
